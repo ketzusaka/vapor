@@ -5,7 +5,7 @@ let package = Package(
     dependencies: [
         .Package(url: "https://github.com/czechboy0/Jay.git", majorVersion: 0, minor: 3)
     ],
-    exclude: [],
+    exclude: ["Sources/VaporDev"],
     targets: [
         Target(
             name: "Vapor",
